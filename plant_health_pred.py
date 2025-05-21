@@ -238,15 +238,4 @@ print("\nModel and scaler saved successfully as 'plant_model_balanced.pkl' and '
 
 
 
-from pyngrok import ngrok
-
-ngrok.kill()  # بيقفل كل الأنفاق المفتوحة
-
-from pyngrok import ngrok
-
-# ضع التوكن الخاص بك من ngrok
-ngrok.set_auth_token("2x5uKG1AyM2cbaScWFA4OLgQtK3_6w7ohUmRRohB1evn2FdE8")
-
-public_url = ngrok.connect(addr="8501")
-print("🌐 Your Streamlit App is Live At:", public_url)
 
