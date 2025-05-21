@@ -236,7 +236,7 @@ print("\nModel and scaler saved successfully as 'plant_model_balanced.pkl' and '
 # 
 #     st.info(notes[selected_feature])
 
-!streamlit run plant_health_pred.py &> /dev/null &
+
 
 from pyngrok import ngrok
 
