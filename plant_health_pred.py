@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1RX08nBlgJdifsmOJhB_I51t0Nu0LBNQT
 """
 
-!pip install streamlit pyngrok --quiet
 
 # Plant Health Prediction - Improved Version
 
